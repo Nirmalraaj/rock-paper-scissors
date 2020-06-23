@@ -11,6 +11,7 @@ pipeline{
 		stage('deploy the maven'){
 			steps {
 				echo 'maven is deploying'
+				echo 'mvn echo:echo'
 			}
 		}
 		
