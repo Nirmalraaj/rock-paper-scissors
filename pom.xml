@@ -52,7 +52,7 @@
 	<configuration>
 		<url>http://34.229.72.153:9090/manager/text</url>
 		<server>TomcatServer</server>
-		<path>/mkyongWebApp</path>
+		<path>/rock-paper-scissors</path>
 	</configuration>
 </plugin>
 	    </plugins>
