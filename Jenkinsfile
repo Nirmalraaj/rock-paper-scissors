@@ -12,7 +12,7 @@ pipeline{
 			steps {
 				echo 'maven is deploying'
 				
-				mvn tomcat7:deploy
+				echo 'mvn tomcat7:deploy'
 			}
 		}
 		
