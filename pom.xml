@@ -50,7 +50,7 @@
 	<artifactId>tomcat7-maven-plugin</artifactId>
 	<version>2.2</version>
 	<configuration>
-		<url>http://34.229.72.153:9090/manager/text</url>
+		<url>http://34.229.72.153:9090/manager</url>
 		<server>TomcatServer</server>
 		<path>/rock-paper-scissors</path>
 	</configuration>
