@@ -1,7 +1,7 @@
 node {
    	
    
-   def mvn = tool (name: 'maven', type: 'maven') + '/bin/mvn'
+   def mvn = tool (name: 'maven', type: 'maven')
 
    
  
