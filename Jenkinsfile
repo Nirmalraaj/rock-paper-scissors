@@ -2,11 +2,7 @@ pipeline{
 	agent any
 	
 	
-	options {
-		timestamps()
-		
-		
-	}
+	def mvn = tool (name: 'maven', type: 'maven')
 	stages {
 		stage('deploy the maven'){
 			steps {
