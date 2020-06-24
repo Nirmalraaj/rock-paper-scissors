@@ -14,7 +14,7 @@ node {
    }
    
    stage('deploy-dev'){
-       def tomcatDevIp = '172.31.28.172'
+       def tomcatDevIp = '35.153.16.158'
 	   def tomcatHome = '/opt/tomcat8/'
 	   def webApps = tomcatHome+'webapps/'
 	   def tomcatStart = "${tomcatHome}bin/startup.sh"
