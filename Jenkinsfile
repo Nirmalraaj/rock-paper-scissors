@@ -1,7 +1,7 @@
 node {
    	
    
-   def mvn = tool (name: 'maven', type: 'maven')
+   
 
    
  
@@ -9,8 +9,8 @@ node {
 	
    stage('Mvn Package'){
 	   // Build using maven
-	   
-	   sh "${mvn} clean package deploy"
+	   def mvn = tool name: 'maven-3', type: 'maven'
+	   sh "${mvn}/bin/mvn package"
    }
    
    stage('deploy-dev'){
